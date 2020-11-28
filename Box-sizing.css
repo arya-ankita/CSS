@@ -1,0 +1,14 @@
+#div1{
+	height: 200px;
+	width: 400px;
+	background-color: cyan;
+	border:  2px  dotted green;
+	/*box-sizing: content-box;*/
+	/*Content box means padding will not be including
+	jaise hmare pass box hai 200*200px ka to 
+	padding usme include nahi hai ye sirf box ka size hai 
+	And border-box ka matlab hai ki 200*200px me hi padding bhi include hoga
+	And it happend accordinly hume set kARNE KI JArurat nahi hai */
+	box-sizing: border-box; 
+
+}

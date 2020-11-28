@@ -1,0 +1,10 @@
+#container{
+	width: 50px;
+	height: auto;
+	border: 2px solid black;
+
+	/*Overflow property use ki hai kyunki 
+	  words fit nahi ho rahe the pahle div me
+	*/
+	overflow-wrap: break-word;
+}

@@ -1,0 +1,12 @@
+#logo-img-container{
+	height: 100vh;
+	width: 100vw;
+	/*background-color: orange;*/
+	background-image: url("/home/ankita/Desktop/Css/Blog Page Structure/image/nature.jpeg");
+	background-repeat: no-repeat;
+	background-position: center;
+	/*background-size: contain;*/
+	/*background-size: auto;*/
+	background-size: cover;
+	background-attachment: fixed; 
+}

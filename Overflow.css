@@ -1,0 +1,15 @@
+#div1{
+	height: 200px;
+	width: 200px;
+	min-width: 100px;
+	max-height: 100px
+	background-color: red;
+	border: 2px solid blue;
+	/*overflow: auto; - this set the overflow according to browser,
+	It depends on browser*/
+
+	/*overflow: visible; this is default value*/
+	/*overflow: hidden; - this hic=de the overflow*/
+	overflow: scroll;
+
+}

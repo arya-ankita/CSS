@@ -1,0 +1,34 @@
+#div1{
+	height: 200px;
+	width: 200px;
+	background-color: green; 
+}
+
+
+span{
+	display: block;
+}
+
+
+#div2{
+	height: 300px;
+	width: 300px;
+	background-color: blue;
+}
+
+div{
+	/*display: inline;*/
+	display: inline-block;
+}
+
+/* if you are making a block element inline,
+   then you can not give margin and padding  
+   height and width to that element this is 
+   the limitation of inline element
+*/
+/* If you using display as inline-block 
+   that means you can give height, width, 
+   margin, padding but it will automatically
+   gives margin of 4px as it;s a property of
+   inline element
+*/

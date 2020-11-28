@@ -1,0 +1,36 @@
+li p{
+     color:blue;
+  }
+
+/*h4{
+
+  text-transform: uppercase;
+}
+*/
+
+h1, p{
+	font-family: sans-serif;
+}
+
+.uppercase{
+	text-transform: uppercase;
+}
+
+.Cursive{
+	font-family: cursive;
+}
+
+li h4{
+	text-transform: uppercase;
+	font-family: cursive;
+}
+
+#blog-desc{
+	color: #314831;
+}
+
+#site-desc p{
+	color:red;
+}
+
+

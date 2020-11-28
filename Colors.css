@@ -1,0 +1,71 @@
+html{
+	font-size: 16;
+}
+
+#div1{
+
+    height: 20rem;
+    width:  20rem;
+	/*height: 100vw;
+	width:  200vw;*/
+	background-color: blue;
+	/*border-width: 2px,4px,6px,8px;*/
+	/*top, right, bottom, left*/
+	/*
+	 we can give width in different ways
+	 border-width: 2px;(gives equal width to each side)
+
+	 border-width: 10px, 20px;
+	 (10 px, for top -bottom, 20px, for left-right)
+	*/
+
+	/*border-style: solid;*/
+	/*border-color: red;*/
+
+	/*instead of taking three diff. proprty we can use single line*/
+
+     border: 4px solid red;
+     border-radius: 4px;
+    /*
+    there are two types of css units
+    1. Absolute unit
+    2. relative unit
+
+    Absolute unit = cm, px
+    Relative unit = rem,vw
+
+    px =  1/96 inch of 1 inch
+    vw =  whatever is the visible part of browser in comparision of that this visible portion is also called viewport
+    rem = related to font-size of the root element, 
+          i.e. html tag, sp if we change font size of html, the value pf rem will aso be changed.
+    em = related to parent tag.
+
+    */
+
+    /* 
+     We can use colors in these all formates
+
+    1. hsla()
+	2. hsl(); 
+	3. rgba(23, 46, 80,0.2); 
+	    here a is opacity, and rgb stands for red, green, blue.
+	4. rgb(25,120,334); 
+	5. #393a7b;
+	    this is the hexadecomal notation of color. 
+	6. red;*/
+}
+
+
+#div2{
+	height: 50%;
+	width: 40%;
+	/*height: 20px;
+	width: 100px;*/
+	background-color: red;
+}
+
+#sample-para{
+	/*border: 2px solid red;*/
+	border-left: 2px solid red;
+	border-top-left-radius: 50px;
+}

@@ -1,0 +1,36 @@
+#Gradient{
+	height: 400px;
+	width:  400px;
+	margin: 40px;
+	border: 2px solid black;
+	/*background-image: linear-gradient(red, blue, cyan); */
+
+	/*background-image: linear-gradient(red, blue, cyan 30px); 
+	  hum pixel value de sakte hai, and this coloring start from top to bottom
+	  top is 0 pixel, or percentage, bottom is 100 */
+
+
+	  /*We can also specify direction*/
+	  /*background-image: linear-gradient(to top right, red, blue, cyan); */
+
+
+
+	  /*we can do this in degree also*/
+	  /*background-image: linear-gradient( 90deg,red, blue, cyan); */
+
+
+
+      /*LINEAR GRADIENT REPEATING*/
+	  /*Gradient effect*/
+	  /*background: repeating-linear-gradient(to top right,red , green 10px); */
+
+	  /*NOte- dono ka value dene [ar ye last value leta hai.
+	  background: repeating-linear-gradient(to top right,red 10px , green 10px); 
+	  hum aese nahi likh sakte, warna ye ek hi color show karega*/
+
+      /*RADIAL GRADIENT*/
+      background: radial-gradient(red,green); 
+
+
+
+}

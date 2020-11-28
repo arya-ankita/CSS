@@ -1,0 +1,17 @@
+a:active{
+    color: yellow;
+}
+
+a:visited{
+	color: green;
+}
+
+p:active{
+	background-color: cyan;
+}
+
+#hidden-div{
+	height: 400px;
+	width: 400px;
+	color: red;
+}

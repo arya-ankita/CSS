@@ -1,0 +1,305 @@
+body{
+	margin-top: : 10px;
+	margin-left: 10vw;
+	margin-right: 10vw;
+	margin-bottom: 10px;
+}
+
+/* Header Image*/
+
+#body-header{
+	height: 65vh;
+	background-image: url(/home/ankita/Desktop/Css/Csspractice/image/r1.jpg);
+	/*opacity: 0.8;*/
+	background-size:  cover;
+	background-position: center;
+	background-attachment: fixed;
+	background-repeat: no-repeat;
+
+}
+
+}
+/* Horizontal List*/
+.horizontal-list{
+	list-style: none;
+	padding-left: 0px; 
+}
+
+.horizontal-list li{
+       display: inline-block;
+       margin: 20px 10px 10px 0px;
+}
+
+.horizontal-list li a{
+	font-size: large;
+	color: white;
+	text-decoration: none;	
+}
+
+.nav-menu li a{
+	transition: color 0.5s, border-bottom 4s;
+	}
+.nav-menu li a:hover{
+	color: lightgrey;
+	border-bottom: 1px solid black;
+	}
+
+/*.horizontal-list li a:hover{
+	color: lightgrey;
+	border-bottom: 1px solid black;
+	opacity: 0.8;
+}*/
+
+.text-center{
+	text-align: center;
+}
+
+
+/* Header Candidate-Name */
+#name{
+	font-size: 3rem;
+	letter-spacing: 0.1rem;
+	color: white;
+	font-weight: 700;
+	text-align: center;
+	margin-bottom: 50px; 
+}
+
+
+/*Second Horizontal-list inside Header*/
+.horizontal-list li a img{
+	height: 30px;
+	width: 30px;
+	padding: 10px;
+	font-size: 1rem;
+	border-radius: 30%;
+}
+
+.horizontal-list li a img:hover{
+	box-shadow: 0px 0px 6px 4px red;
+}
+
+section{
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+
+}
+
+section:target{
+	background-color: yellow;
+}
+
+section:nth-child(2n){
+	background-color: grey;
+
+}
+
+section:nth-child(2n+1){
+	background-color: white;
+}
+
+.section-heading{
+	width: auto;
+	padding: 20px 10px 10px;
+	/*margin: 10px auto;*/
+	font-weight: 400;
+}
+
+.section-heading span{
+	font-size: 40px;
+	color: #2857a4;
+	display: inline-block;
+	padding-top: 10px;
+	margin-right: 0.5rem;  
+}
+
+
+/* About Section*/
+#about{
+	height:auto;
+	width: 100%;
+
+}
+
+#my-image{
+	height: 12rem;
+	width: 12rem;
+	margin: auto;
+	margin-top: -17vh;
+
+
+}
+
+#my-image img{
+	height: 100%;
+	width: 100%;
+	border-radius: 50%;
+}
+
+
+/*Skills Section*/
+
+
+.skills-display{
+	width: 70%;
+	/*height: 100px;*/
+	/*border: 2px solid black; */
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.skill-progress{
+	width: 7rem;
+	height: 1.4rem;
+	background-color: lightgrey;
+	border-radius: 0.8rem;
+	border: 2px solid black; 
+}
+
+.skill-progress>div{
+	border-radius: 20px 0px 0px 20px;
+	box-shadow: 5px 10px 8px #888888;
+}
+.skillname span{
+	color: white;
+	font-size: 1rem;
+	margin-left: 20px;
+}
+
+/*Common color classes*/
+.text-highlight{
+	color: #2857a4;
+	font-weight: 600;
+}
+
+.mb-blue{
+	background-color: blue;
+}
+
+/* Percentage Classes*/
+.eighty-five-percent{
+	width: 85%;
+	height: inherit;
+	border-left: 0.8rem; 
+}
+
+.seventy-five-percent{
+	width: 85%;
+	height: inherit;
+	border-left: 0.8rem; 
+}
+
+.mb-orange{
+	background-color: orange;
+}
+
+
+/*Experience Section*/
+.timeline{
+	position: relative;
+	width: 75%;
+	border: 2px solid black;
+}
+
+.timeline-box{
+	position: relative;
+	width: 40%;
+	left: 5%;
+	min-height: 150px;
+	
+}
+
+/* Contact Section*/
+#Contact{
+	padding-bottom: 40px;
+	background-image: linear-gradient(50deg, blue, #9400D3);
+}
+
+#Contact h1,
+#Contact h1 span{
+	color: white;
+}
+
+#contact-container{
+	display: flex;
+	/*flex-wrap: wrap;*/
+}
+
+
+#contact-form{
+	margin-left: 20px;
+}
+
+
+#contact-form input,textarea{
+	margin: 15px;
+	max-width: 90%;
+	width: 90%;
+	color:  #d9dcdd;
+	line-height: 1.6;
+	font-size: 1.05rem;
+	border:0px solid transparent;
+	border-bottom: 2px solid white;
+	background: transparent;
+	padding: 4px 10px;
+
+}
+
+
+#contact-form button[type="submit"]{
+   background: transparent;
+   border: 2px solid white;
+   font-size:20px;
+   color: white;
+   margin-left: 30%;
+   padding: 0.8em;
+   line-height: 1;
+   letter-spacing: 0.04em;
+   font-family: sans-serif;
+
+
+}
+
+#contact-form button:hover{
+    background-color: white;
+    color: #13386fe0;
+
+}
+#contact-form-container{
+	width: 50%;
+}
+
+
+input[type="text"] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+.my-details-info-container {
+    margin-bottom: 20px;
+    color: #d9dcdd;
+    font-size: 1rem;
+}
+input[type="email"] {
+    background: transparent;
+    border: none;
+    border-bottom: 1px solid white;
+}
+
+
+.my-details-container{
+	margin-left: 6%;
+}
+
+
+.my-details-container h3{
+	width: 30%;
+	color: white;
+	font-size: 1.6rem;
+}
+
+
